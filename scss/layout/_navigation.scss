@@ -1,0 +1,30 @@
+nav {
+  color: $color-text-secondary;
+  background-color: $background-color-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    color: $color-text-secondary;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    text-decoration: none;
+    img {
+      height: 2rem;
+      width: 10rem;
+      padding: 0 2rem;
+    }
+    p {
+      font-size: 2em;
+    }
+  }
+  i {
+    font-size: 3em;
+    padding: 1.5em;
+  }
+  .navbar__menu {
+    display: none;
+  }
+}
