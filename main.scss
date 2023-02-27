@@ -1,9 +1,9 @@
 @import "./scss/abstracts/variables";
+@import "./scss/abstracts/mixins";
 
 @import "./scss/base/base";
 @import "./scss/base/typography";
 @import "./scss/vendors/normalize";
-@import "./scss/abstracts/mixins";
 
 @import "./scss/layout/navigation";
 @import "./scss/layout/header";

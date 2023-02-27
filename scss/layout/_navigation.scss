@@ -20,11 +20,31 @@ nav {
       font-size: 2em;
     }
   }
+}
+.navbar__menu__container {
+  display: none;
+  @include desktop {
+    display: block;
+    padding: 0 1rem;
+  }
+  .navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    a {
+      padding: 1rem;
+      @include large-desktop {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+.navbar__menu__icon {
   i {
     font-size: 3em;
     padding: 1.5em;
+    cursor: pointer;
   }
-  .navbar__menu {
+  @include desktop {
     display: none;
   }
 }
